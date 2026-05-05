@@ -181,13 +181,13 @@ dotnet build
 ## Running from Source
 
 ```bash
-dotnet run --project RepoCleaner/RepoCleaner.csproj -- [path] [options]
+dotnet run --project RepoCleaner -- [path] [options]
 ```
 
 ## Publishing as a Standalone Tool
 
 ```bash
-dotnet publish RepoCleaner/RepoCleaner.csproj -c Release -r win-x64 --self-contained
+dotnet publish RepoCleaner -c Release -r win-x64 --self-contained
 ```
 
 ## Known Limitations
